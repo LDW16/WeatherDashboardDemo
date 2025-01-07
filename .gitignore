@@ -1,3 +1,4 @@
 .env
 __pycache__/
 *.zip
+/workspaces/WeatherDashboardDemo/weather-dashboard-demo/weather-dashboard-demo
