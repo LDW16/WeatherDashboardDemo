@@ -47,10 +47,10 @@ ________________________________________
 ## Setup
 1. Clone the Repository (optional)
 If you prefer to recreate the structure manually (as I did for learning), follow these steps:
-1.	Create all the files and directories listed in the Project Structure above.
-2.	Populate the files with the required content.
+	Create all the files and directories listed in the Project Structure above.
+   	Populate the files with the required content.
 
-1.1 Alternatively:
+Alternatively:
 git clone <repository-url>
 cd weather-dashboard
 
