@@ -1,6 +1,6 @@
-## Weather Dashboard Demo - AWS
+# Weather Dashboard Demo - AWS
 
-# Project Guidelines provided by SHAEINTHECLOUD:
+## Project Guidelines provided by SHAEINTHECLOUD:
 https://www.youtube.com/watch?v=A95XBJFOqjw
 
 Sample Output:
@@ -9,30 +9,30 @@ Sample Output:
  
 This project is a Weather Data Collection System built using Python, AWS S3, and the OpenWeather API. It fetches, stores, and manages real-time weather data while showcasing core DevOps principles, Python development, and cloud integration skills.
 ________________________________________
-# Project Overview
+## Project Overview
 The Weather Dashboard demonstrates:
 •	API Integration: Real-time weather data retrieval using the OpenWeather API.
 •	Cloud Storage: Secure storage of weather data in AWS S3 buckets.
 •	Environment Management: Configurable with environment variables for sensitive information like API keys and bucket names.
 •	DevOps Principles: Simplified deployment and cloud integration.
 ________________________________________
-# Key Features
+## Key Features
 •	Real-Time Weather Data: Fetches up-to-date weather information for multiple cities.
 •	Detailed Insights: Displays temperature (°F), humidity levels, and current weather conditions.
 •	Cloud Storage Integration: Automatically saves weather data to AWS S3 buckets for secure storage.
-&emsp o	Bucket Name Randomization: Attaches a unique tag to the base bucket name.
+•       Bucket Name Randomization: Attaches a unique tag to the base bucket name.
 •	Multi-City Monitoring: Tracks weather conditions for various cities simultaneously.
 ________________________________________
-# Technical Architecture
+## Technical Architecture
 •	Language: Python 3.x
 •	Cloud Provider: AWS (S3)
 •	External API: OpenWeather API
-# Core Dependencies
+## Core Dependencies
 •	boto3: AWS SDK for Python.
 •	python-dotenv: For managing environment variables.
 •	requests: Simplified HTTP requests for API integration.
 ________________________________________
-# Project Structure
+## Project Structure
 
 weather-dashboard/
   ├── src/
@@ -44,13 +44,13 @@ weather-dashboard/
   ├── .gitignore
   ├── requirements.txt
 ________________________________________
-# Setup
+## Setup
 1. Clone the Repository (optional)
 If you prefer to recreate the structure manually (as I did for learning), follow these steps:
 1.	Create all the files and directories listed in the Project Structure above.
 2.	Populate the files with the required content.
 
-1.1	Alternatively:
+1.1 Alternatively:
 git clone <repository-url>
 cd weather-dashboard
 
@@ -84,7 +84,7 @@ You need:
 Execute the script to fetch and save weather data:
 python src/weather_dashboard.py
 ________________________________________
-# Common Issues:
+## Common Issues:
 1.	Bucket Name Issues: Ensure the bucket name in .env is valid and unique.
 2.	AWS Credentials Error: Verify AWS CLI is properly configured and has sufficient permissions.
 3.	OpenWeather API Key Error: Check if your API key is active and correctly entered in .env.
@@ -104,7 +104,7 @@ ________________________________________
 }
 
 ________________________________________
-# Learning Goals
+## Learning Goals
 This project is part of a 30-day DevOps challenge aimed at mastering:
 •	Python scripting.
 •	Cloud integration with AWS.
